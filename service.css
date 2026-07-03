@@ -1549,6 +1549,23 @@ footer::before{
     }
 }
 
+ .wa-float {
+      position: fixed;
+      bottom: 28px; right: 28px;
+      width: 58px; height: 58px;
+      background: #25d366;
+      border-radius: 17px;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      z-index: 900;
+      box-shadow: 0 8px 28px rgba(37,211,102,0.45);
+      transition: var(--t);
+    }
+
+    .wa-float:hover { transform: translateY(-4px) scale(1.05); box-shadow: 0 14px 38px rgba(37,211,102,0.55); }
+
 #topBtn {
   display: none;
     position: fixed;
